@@ -1,8 +1,8 @@
 # AR-VR-Video-Player
-An Android app made with unity which can be used with google cardboard or any other similar VR glasses, it projects and plays videos on the photos/objects in the real world.
+This Android application, built using Unity, is designed for use with Google Cardboard or other compatible VR headsets. It enables video projection and playback on real-world images or objects.
 
-It is made using Unity Engine with the help of Vuforia SDK.Vuforia helps in tracking the given image/object. I have used the Vuforia database to add the images i wanted to use for tracking and Vuforia provides a package for the images/objects to import in unity so that we can use them as the tracking objects.
+The app was developed using the Unity Engine in combination with the Vuforia SDK, which facilitates image and object tracking. I utilized the Vuforia database to upload and manage the images used for tracking. Vuforia provides a Unity-compatible package for these images/objects, allowing them to serve as tracking targets within the application.
 
-I also wrote a small piece of code in C# to replace the default trcaking code to play the video when it is in the scene/view and pause the video when the tracking is lost.
+A custom C# script was written to override the default tracking behavior. This script enables the video to automatically play when the target is detected in view and pause when tracking is lost.
 
-I added the Android SDK to install the app on my android mobile.
+Additionally, the Android SDK was integrated to build and install the app on my Android device.
